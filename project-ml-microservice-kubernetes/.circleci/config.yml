@@ -11,7 +11,7 @@ jobs:
 # Use the same Docker base as the project
       - image: python:3.7.3-stretch
 
-    # working_directory: ~/DevOps_Microservices/project-ml-microservice-kubernetes
+    working_directory: ~/project-ml-microservice-kubernetes
 
     steps:
       - checkout
@@ -86,4 +86,3 @@ jobs:
             command: |
             . venv/bin/activate
             make lint 
-            
