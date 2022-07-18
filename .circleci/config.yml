@@ -16,10 +16,10 @@ jobs:
     steps:
       - checkout
       - run:
-        name: view stuff
-        command: |
-          ls
-          pwd
+          name: view stuff
+          command: |
+            ls
+            pwd
       # Download and cache dependencies
       # - restore_cache:
       #     keys:
