@@ -2,18 +2,18 @@
 
 ## This is a project to demonstrate a prediction api 
 
-##scripts
+## scripts
 
-##`run_docker.sh`
+##### `run_docker.sh`
 used to run the docker container with name `helloworld`
 
-##`upload_docker.sh`
+##### `upload_docker.sh`
 uploads the docker image to the docker hub repo
 
-##`run_kubernetes.sh`
+##### `run_kubernetes.sh`
 runs a container inside the kubernetes cluster
 
-##`make_prediction.sh`
+##### `make_prediction.sh`
 sends a request to the docker container
 
 
